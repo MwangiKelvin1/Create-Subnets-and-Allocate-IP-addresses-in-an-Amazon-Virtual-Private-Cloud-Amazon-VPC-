@@ -11,7 +11,7 @@
 
 ---
 
-## 📥 Scenario Overview
+## Scenario Overview
 
 I received an email from a startup customer, Paulo Santos, who needed help setting up an Amazon Virtual Private Cloud (VPC). His requirements included:
 - Approximately 15,000 private IP addresses for his internal systems
@@ -39,7 +39,7 @@ Figure: In the customer's VPC architecture, the customer needs approximately 15,
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - Amazon Web Services (AWS)
   - Amazon VPC
@@ -47,7 +47,7 @@ Figure: In the customer's VPC architecture, the customer needs approximately 15,
   - Route Tables
   - Internet Gateway
 
-## 🧮 Network Design
+## Network Design
 
 | Component        | Configuration             |
 |------------------|---------------------------|
@@ -114,14 +114,14 @@ Figure: Use the Create VPC button to launch a VPC.
 - **Public subnets** are for resources that must communicate with the internet (e.g., web servers). These use a **public IP** and are connected to an **Internet Gateway**.
 - **Private subnets** are isolated from the internet — best for databases or internal services. To reach the internet, they need a **NAT gateway** (Will be covered in another lab).
 
-## 📘 What I Learned
+## What I Learned
 
 - How to calculate subnet sizes based on CIDR notation
 - How to set up a basic VPC and public subnet in AWS
 - How to apply RFC1918 standards in practical cloud environments
 - The significance of public vs private IP address usage in cloud networks
 
-## 🔗 References
+## References
 
 - [AWS VPC Documentation](https://docs.aws.amazon.com/vpc/)
 - [RFC1918 – Private Address Space](https://datatracker.ietf.org/doc/html/rfc1918)
@@ -130,13 +130,13 @@ Figure: Use the Create VPC button to launch a VPC.
 
 ---
 
-## 📄 Project Metadata
+## Project Metadata
 
 - **Project Type**: AWS Networking & Support  
 - **Focus Area**: IP Address Management, EC2, VPC  
 - **Role**: AWS Cloud Support Engineer  
 
-### 👤 Author
+### Author
 **Kelvin Mwangi**  
 Security Analyst | Network Security | Cloud Security  
 
